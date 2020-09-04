@@ -199,6 +199,8 @@ a:hover {
     margin: 0 2% 20px;
 }
 
+/* index.html Main Content Styles */
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -306,6 +308,8 @@ a:hover {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+/* Footer Styles */
 
 footer {
     width: 100%;
