@@ -348,14 +348,24 @@ footer nav a {
 .container-about-page .row {
     display: flex;
     justify-content: center;
-    margin: 0 2% auto;
+    margin: 0 2%;
+}
+
+.container-about-page .row a {
+    border: 2px solid #000;
+    border-radius: 10%;
+    text-decoration: none;
+    padding: 2px 5px 2px 5px;
+    color: #000;
 }
 
 hr.long {
     border: 1px dashed #000;
+    margin: 10px 0;
 }
 
 hr.short {
     border: 1px dashed #000;
     width: 350px;
+    margin: 10px 0;
 }
