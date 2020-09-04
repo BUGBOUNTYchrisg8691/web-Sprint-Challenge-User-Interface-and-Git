@@ -199,6 +199,7 @@ a:hover {
     margin: 0 2% 20px;
 }
 
+
 /* index.html Main Content Styles */
 
 .container {
@@ -309,6 +310,7 @@ a:hover {
     padding-right: 0;
 }
 
+
 /* Footer Styles */
 
 footer {
@@ -328,4 +330,22 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+/* about.html Sytles */
+
+
+/* Main Container Styles */
+
+.container-about-page {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 800px;
+}
+
+.container-about-page .row {
+    display: flex;
+    justify-content: center;
 }
