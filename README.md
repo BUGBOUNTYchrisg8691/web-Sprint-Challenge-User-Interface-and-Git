@@ -34,24 +34,34 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML is HTML where the element's meaning is clear to both the browser and the developer.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+Block uses full available space of its' container, will break onto new line, width and height are respect, Inline only uses what space it needs and does not force a new line, and width and height properties do not apply.
 
 3. What are the 4 areas of the box model?
 
+border, margin, padding, and content
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+If using the default row direction, it works on the cross axis or y axis, while using column flex-direction, it works on the new cross axis(old main axis) which would be rotated 90 deg or the x-axis.
+
 5. Explain why git is valuable to a team of developers.
+
+Firstly, it allows control of updated code to be reviewed before merging a new branch to the master branch. It also allows multiple programmers to maintain their own branch while not changing the master branch until this merge is ready to occur. Also, it allows for remote storage of code, so if something were to happen to you computer, you could pull down your branch from another computer and start where you left off, without sacrificing valuable time. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
 
-- [ ] Create a forked copy of this project.
-- [ ] Add your Team Lead as collaborator on Github.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push -u origin `<firstName-lastName>`.
+- [x] Create a forked copy of this project.
+- [x] Add your Team Lead as collaborator on Github.
+- [x] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [x] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [x] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [x] Push commits: git push -u origin `<firstName-lastName>`.
  
 Follow these steps for completing your project.
 
@@ -69,8 +79,8 @@ Your finished project must include all of the following requirements:
 
 [Review the provided design file for the home page](design-files/home.png).  Notice the navigation and header images are missing.
 
-* [ ] Build the HTML and CSS to create the missing navigation and header.
-* [ ] Link the `About` navigation item to the [about.html](about.html) page
+* [x] Build the HTML and CSS to create the missing navigation and header.
+* [x] Link the `About` navigation item to the [about.html](about.html) page
 
 You will also notice there are 10 boxes on the home page that need background colors.  Use this list below to correctly style each box:
 
