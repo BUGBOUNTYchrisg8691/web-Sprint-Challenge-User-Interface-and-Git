@@ -330,6 +330,7 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+    font-size: 1rem;
 }
 
 
@@ -348,24 +349,45 @@ footer nav a {
 .container-about-page .row {
     display: flex;
     justify-content: center;
-    margin: 0 2%;
+    flex-basis: 50%;
+}
+
+.container-about-page .row .colOne {
+    margin: 10px 10px 10px 0;
+}
+
+.container-about-page .row .colTwo {
+    margin: 10px 0 10px 10px;
 }
 
 .container-about-page .row a {
-    border: 2px solid #000;
-    border-radius: 10%;
+    border: 3px solid #000;
+    border-radius: 10px;
     text-decoration: none;
-    padding: 2px 5px 2px 5px;
+    padding: 3px 20px 3px 20px;
     color: #000;
 }
 
 hr.long {
     border: 1px dashed #000;
-    margin: 10px 0;
+    margin: 20px 0;
 }
 
 hr.short {
     border: 1px dashed #000;
-    width: 350px;
-    margin: 10px 0;
+    width: 370px;
+    margin: 20px 0;
+}
+
+.together {
+    margin: 10px 10px;
+}
+
+.container-about-page .row .colOne img {
+    margin: 0 0 10px 0;
+
+}
+
+.container-about-page .row .colTwo img {
+    margin: 0 0 10px 0;
 }
